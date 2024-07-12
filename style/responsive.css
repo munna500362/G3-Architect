@@ -1,0 +1,49 @@
+@media screen and (max-width:576px) {
+    .header-container{
+        /* border: 1px solid blue; */
+        padding: 20px 50px;
+    }    
+    .nav-container{
+        /* border: 1px solid green; */
+        flex-direction: column;
+    }
+    .nav-title{
+        font-weight: 600px;
+        font-size: 2rem;
+        /* border: 1px solid darkblue; */
+        margin: 10px;
+    }
+    nav>ul{
+        padding-left: 0px;
+        margin:10px 0px;
+        
+    }
+    nav li {
+
+        margin-left: 20px;
+        font-weight: 400px;
+        font-size: 14px;
+    }
+    .banner-title{
+        font-weight: 700px;
+        font-size: 2.5rem;
+    
+    }
+    .Features-section{
+        margin: 20px 50px;
+    }
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .header-container{
+        /* border: 1px solid blue; */
+        padding: 30px 100px;
+    }    
+    .nav-container{
+        /* border: 1px solid green; */
+        flex-direction: column;
+    } 
+}
