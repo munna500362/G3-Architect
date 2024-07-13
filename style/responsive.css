@@ -29,9 +29,83 @@
         font-size: 2.5rem;
     
     }
-    .Features-section{
+    
+    /* main section  */
+    main{
         margin: 20px 50px;
     }
+    /* Features-section */
+    .Features-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        /* margin: 50px 150px; */
+        /* border: 2px solid darkblue; */
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    .Features-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 15px;
+        border-radius: 15px;
+        margin: 5px ;
+        text-align: center;
+        /* border: 2px solid green; */
+        
+    }
+    .Features-banner{
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    /* features description section  */
+    .Features-description-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 20px;
+        gap: 20px;
+     }
+     .description-title{
+        font-weight: 700px;
+        font-size: 2rem;
+        color: black;
+     }
+
+     .div{
+        padding: 10px;
+        border-radius: 8px; 
+        margin-bottom: 10px;
+    }
+    .architecht-description button{
+        position: relative;
+        bottom: 50px;
+        margin-left: -30px;
+        
+    }
+    .btn-10year{
+        font-weight: 700px;
+        font-size: 2rem;
+    
+    }
+    /* sponsor section  */
+    .sponsor-img{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        /* border: 1px solid black; */
+    
+    }
+
+
+    footer{
+        background-color: rgb(251, 242, 230);
+        padding: 10px ;
+        margin: 20px 50px;
+        text-align: center;
+    }
+
 }
 
 
@@ -45,5 +119,60 @@
     .nav-container{
         /* border: 1px solid green; */
         flex-direction: column;
-    } 
+    }
+    /* main section  */
+
+    main{
+        margin: 30px 80px;
+    }
+
+    /* Features-section  */
+    .Features-section{
+        /* border: 2px solid darkorchid; */
+        align-items: center;
+        /* margin: 30px 80px; */
+        /* border: 2px solid darkblue; */
+        gap: 20px;
+        /* justify-content: center; */
+    }
+    .Features-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 15px;
+        border-radius: 10px;
+        margin: 10px ;
+        text-align: center;
+        /* border: 2px solid green; */
+        
+    }
+    .Features-banner{
+        padding-right: 30px;
+        text-align: center;
+    }
+    .Features-banner-title{
+        color: rgb(108, 107, 107);
+        font-weight: 700px;
+        font-size: 1.5rem;
+        /* padding-bottom: 0px; */
+    }
+    .Features-description-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 20px;
+        gap: 20px;
+     }
+     .sponsor-img{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        /* border: 1px solid black; */
+    
+    }
+     footer{
+        background-color: rgb(251, 242, 230);
+        padding: 15px ;
+        margin: 30px 80px;
+        text-align: center;
+    }
 }
